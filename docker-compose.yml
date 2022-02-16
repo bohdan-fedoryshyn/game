@@ -9,3 +9,5 @@ services:
     container_name: game
     ports:
       - '8989:8080'
+    volumes:
+      - /home/ubuntu/game/src/main/webapp/WEB-INF:WEB-INF
