@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  analytics:
+  game:
     #image: 'analytics:latest'
     build:
       context: .
